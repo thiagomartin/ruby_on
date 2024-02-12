@@ -10,9 +10,14 @@ def calcular(op, num1, num2)
   when '3'
     num1 * num2
   when '4'
-    num2 != 0 ? num1 / num2 : "Erro: Divisão por zero"
+    if num2 != 0
+      num1 / num2
+    else
+      "Erro: Divisão por zero"
+    end
   else
-    "Opção inválida"
+    "Opção inválida!"
+
   end
 end
 
@@ -42,7 +47,6 @@ loop do
     resultado = calcular(escolha, num1, num2)
     puts "Resultado: #{resultado}"
   else
-    puts "Opção inválida. Tente novamente"
+    puts "Programa encerrado"
   end
 end
-  puts "Programa encerrado"
