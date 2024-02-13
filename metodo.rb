@@ -14,4 +14,14 @@ end
 
 first_name = 'Thiago'
 last_name = 'Martin'
-talk (first_name, last_name)
+talk first_name, last_name
+
+#outro exemplo
+
+def signal(color ='vermelho')
+  puts "O sinal esta #{color}"
+end
+
+signal
+ color = 'verde'
+ signal (color)
