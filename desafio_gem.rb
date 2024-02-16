@@ -32,7 +32,7 @@ loop do
 
   case opção
   when 1
-    puts "Digite  o CPF para verificação:"
+    puts "Digite o CPF para verificação: (somente os numeros)"
     cpf_digitato = gets.chomp
 
     if cpf_valido?(cpf_digitato)
