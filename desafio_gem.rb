@@ -14,5 +14,5 @@ resultado = calcular_potencia(base, expoente)
 puts "O resultado de #{base} elevado a #{expoente} é : #{resultado}."
 
 
-#siga a documentação da gem CPF_CNPJ para criar um programa que recebe como entrada um número de CPF e que um método
+#Siga a documentação da gem CPF_CNPJ para criar um programa que recebe como entrada um número de CPF e que um método
 #verifique se esta numero é válido
