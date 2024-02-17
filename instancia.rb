@@ -1,6 +1,7 @@
 class User
-  def add(name)
-    @name = name
+  def add
+    print "Digite seu nome: "
+    @name = gets.chomp
     puts "User adicionado"
     hello
   end
@@ -11,4 +12,4 @@ class User
 end
 
 user = User.new
-user.add('Thiago')
+user.add
