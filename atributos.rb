@@ -21,5 +21,5 @@ class Dog
 dog = Dog.new
 dog.name = 'Shaft'
 puts dog.name
-dog.age = 3
+dog.age = '5 anos'
 puts dog.age
