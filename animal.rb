@@ -26,3 +26,7 @@ cachorro = Cachorro.new
 cachorro.pular
 cachorro.dormir
 cachorro.latir
+gato =  Gato.new
+gato.meow
+gato.dormir
+gato.pular
