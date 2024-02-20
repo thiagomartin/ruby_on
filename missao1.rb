@@ -5,12 +5,11 @@
 
 
 module NameCapitalize
-  CapitalizeLambda = lambda {|name| puts name.capitalize}
-
-  def self.capitalize_name
-    CapitalizeLambda.call("thiago")
-    CapitalizeLambda.call("andriolo")
-
+  #poderia ser CapitalizeLambida = lambida {|nome|puts nome.capitalize} mas assim fica mais legível
+  CapitalizeLambda = -> (name){puts name.capitalize}
+    def self.capitalize_name
+    CapitalizeLambda.call ("thiago")
+    CapitalizeLambda.call ("andriolo")
   end
 end
- NameCapitalize.capitalize_name
+NameCapitalize.capitalize_name
